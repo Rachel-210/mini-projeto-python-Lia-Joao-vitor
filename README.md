@@ -4,6 +4,15 @@ Este repositório contém dois mini-projetos desenvolvidos em Python como ativid
 
 Os projetos focam na aplicação de conceitos de **Estruturas de Repetição** (`while`, `for`) e **Estruturas de Dados** (Listas, Dicionários, Tuplas e Sets) em cenários práticos.
 
+## 🤝 Autores e Contribuição
+
+Este projeto foi desenvolvido em dupla por:
+
+* **Lia Rachel Ferreira De Sousa**
+* **João Vitor Rodrigues**
+
+---
+
 ## 🛠️ Tecnologias Utilizadas
 
 * **Linguagem:** Python
