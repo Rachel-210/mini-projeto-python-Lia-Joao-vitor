@@ -61,12 +61,3 @@ O sistema apresenta 5 opções no menu principal:
 | **3** | Consultar aluno | 
 | **4** | **Relatório Geral** | 
 | **5** | **Sair** | 
-
----
-
-## 🤝 Autores e Contribuição
-
-Este projeto foi desenvolvido em dupla por:
-
-* **Lia Rachel Ferreira De Sousa**
-* **João Vitor Rodrigues**
