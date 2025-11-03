@@ -32,6 +32,28 @@ Sistema simples para informatizar o controle de produtos de uma pequena loja.
 * **Set (Conjunto):** Utilizado para controlar os códigos de produtos já cadastrados e evitar duplicatas.
 * **Tupla:** Contém as categorias de produtos disponíveis.
 
+### ✅ Funções de Validação
+
+O código utiliza funções para garantir que as entradas do usuário sejam do tipo e formato corretos:
+
+* **validar_inteiro(prompt):** Pede uma entrada e garante que ela seja um número inteiro e não negativo, retornando o valor como int.
+
+* **validar_float(prompt):** Pede uma entrada, permite o uso de vírgula (,) ou ponto (.) como separador decimal e a converte para float.
+
+* **validar_categoria():** Exibe as categorias disponíveis e garante que o usuário escolha um índice válido dentro da tupla categorias, retornando o nome da categoria.
+
+### 📊 Funções de Gerenciamento do Estoque
+
+* **cadastrar_produto_simples():** Adiciona um novo dicionário (produto) à lista estoque e registra o novo código no codigos_cadastrados.
+
+* **listar_produtos_simples():** Itera sobre o estoque e exibe os dados dos produtos em um formato tabular.
+
+* **buscar_produto_simples():** Permite buscar produtos por código ou por nome.
+
+* **atualizar_produto_simples():** Localiza um produto pelo código e permite modificar o preço, quantidade e categoria.
+
+* **excluir_produto_simples():** Localiza um produto pelo código, remove-o da lista estoque e remove o código do conjunto codigos_cadastrados.
+
 ### 📝 Menu e Opções
 
 O sistema deve permanecer em execução até que a opção de saída seja escolhida.
