@@ -51,7 +51,7 @@ O sistema deve permanecer em execução até que a opção de saída seja escolh
 
 Sistema para registrar alunos, armazenar notas, calcular médias e gerar um relatório geral de desempenho da turma.
 
-### 🎯 Estruturas de Dados Utilizadas
+### 🎯 Estruturas Utilizadas
 * **Lista:** Usada dentro da função cadastrar_aluno() para armazenar as notas digitadas pelo usuário:
 
   notas = []
@@ -62,6 +62,16 @@ Cada nota é adicionada com notas.append(nota).
   alunos = {}
 
 Cada chave é o nome do aluno, e o valor é outro dicionário com as informações dele
+* **Set (Conjunto):** Representado por nomes_cadastrados, tem a função de evitar que dois alunos com o mesmo nome sejam cadastrados mais de uma vez.
+* **Estrutura de repetição for:** Empregada no cadastro de notas e nos relatórios, percorre listas e dicionários para exibir ou processar informações de todos os alunos.
+
+* **Estrutura condicional if / else:** Responsável pela validação e controle lógico do sistema, como verificar se um aluno já está cadastrado ou definir se foi aprovado ou reprovado.
+
+* **Estrutura de repetição while True:** Usada para manter o menu principal em execução contínua até que o usuário escolha encerrar o programa.
+
+* **Funções (def):** Organizam o código em partes independentes e reutilizáveis, separando as lógicas de cadastro, consulta, listagem, relatórios e controle de navegação.
+
+* **Comando exit():** Finaliza o sistema de forma controlada, encerrando a execução quando o usuário decide sair do programa.
 
 ### 📝 Menu e Opções
 
