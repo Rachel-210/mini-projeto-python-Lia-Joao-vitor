@@ -50,6 +50,10 @@ O sistema deve permanecer em execução até que a opção de saída seja escolh
 
 Sistema para registrar alunos, armazenar notas, calcular médias e gerar um relatório geral de desempenho da turma.
 
+### 🎯 Estruturas de Dados Utilizadas
+* **Lista:** Armazena as notas dos alunos.
+* **Dicionário:** Armazena todos os alunos cadastrados.
+
 ### 📝 Menu e Opções
 
 O sistema apresenta 5 opções no menu principal:
