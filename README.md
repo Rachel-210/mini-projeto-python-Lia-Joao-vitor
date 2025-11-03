@@ -1,10 +1,10 @@
-# 🐍 Mini-Projetos Python: Controle de Estoque e Gestão de Notas
+# 💻 Mini-Projetos Python: Controle de Estoque e Gestão de Notas
 
 Este repositório contém dois mini-projetos desenvolvidos em Python como atividade de complemento de nota para a disciplina de **Programação I - Python**.
 
 Os projetos focam na aplicação de conceitos de **Estruturas de Repetição** (`while`, `for`) e **Estruturas de Dados** (Listas, Dicionários, Tuplas e Sets) em cenários práticos.
 
-## 🤝 Autores e Contribuição
+## 🤝 Autores
 
 Este projeto foi desenvolvido em dupla por:
 
