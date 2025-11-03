@@ -41,7 +41,7 @@ O sistema deve permanecer em execução até que a opção de saída seja escolh
 
 Sistema para registrar alunos, armazenar notas, calcular médias e gerar um relatório geral de desempenho da turma.
 
-### 📝 Menu e Opções (Revisado)
+### 📝 Menu e Opções
 
 O sistema apresenta 5 opções no menu principal:
 
