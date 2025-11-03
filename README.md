@@ -17,6 +17,7 @@ Este projeto foi desenvolvido em dupla por:
 
 * **Linguagem:** Python
 * **Estruturas:** Listas, Dicionários, Tuplas e Sets.
+* **Ferramenta de Código:** Google Colab
 
 ---
 
