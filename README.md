@@ -52,17 +52,27 @@ O sistema deve permanecer em execução até que a opção de saída seja escolh
 Sistema para registrar alunos, armazenar notas, calcular médias e gerar um relatório geral de desempenho da turma.
 
 ### 🎯 Estruturas de Dados Utilizadas
-* **Lista:** Armazena as notas dos alunos.
+* **Lista:** Usada dentro da função cadastrar_aluno() para armazenar as notas digitadas pelo usuário:
+
+  notas = []
+
+Cada nota é adicionada com notas.append(nota).
 * **Dicionário:** Armazena todos os alunos cadastrados.
+
+  alunos = {}
+
+Cada chave é o nome do aluno, e o valor é outro dicionário com as informações dele
 
 ### 📝 Menu e Opções
 
-O sistema apresenta 5 opções no menu principal:
+O sistema apresenta 7 opções no menu principal:
 
 | Opção | Funcionalidade | 
 | :---: | :------------- | 
 | **1** | Cadastrar aluno | 
-| **2** | Listar todos os alunos | 
-| **3** | Consultar aluno | 
-| **4** | **Relatório Geral** | 
-| **5** | **Sair** | 
+| **2** | Registrar Notas | 
+| **3** | Listar Alunos e Médias |
+| **4** | Buscar Aluno |
+| **5** | Mostrar Aporvados e Reprovados |
+| **6** | **Relatório Geral** | 
+| **0** | **Sair** | 
